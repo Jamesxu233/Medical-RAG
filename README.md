@@ -81,6 +81,8 @@ MedicalRAG
 │
 ├── data
 │       └── mesh
+├── models
+│   └── Modelfile
 ├── pyproject.toml
 └── README.md
 ```

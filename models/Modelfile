@@ -1,0 +1,8 @@
+FROM ./DeepSeek-R1-Distill-Qwen-7B-Q4_K_M.gguf
+
+PARAMETER temperature 0.3
+PARAMETER num_ctx 8192
+
+SYSTEM """
+You are a helpful biomedical research assistant.
+"""

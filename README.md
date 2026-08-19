@@ -56,12 +56,17 @@ MedicalRAG
 │   ├── 任务5_RAG医学查询理解与增强.ipynb
 │   ├── 任务6_多路检索.ipynb
 │   ├── 任务7 8_生成模块与提示词工程.ipynb
-│   ├── 医学词典构建.ipynb
-│ 
+│   └── 医学词典构建.ipynb
+│
+├── reports
+│   ├── 任务1_配置环境并测试.docx
+│   ├── 任务2_RAG数据分析与设计说明.docx
+│   ├── 任务3_文档分割质量评估报告.docx
+│   └──任务4_向量化与索引构建.docx
 │
 ├── src
 │   └── medical_rag
-│       └── __init__.py
+│       ├── __init__.py
 │       ├── chroma_indexer.py
 │       ├── config.py
 │       ├── mesh_terminology.py
@@ -73,14 +78,14 @@ MedicalRAG
 │       ├── prompts.py
 │       ├── llm_generator.py
 │       ├── generation_pipeline.py
-│       └── generation_utils.py
-│       └── multiretrieval_pipeline.py
-│       └── query_services.py
-│       └── schemas.py
+│       ├── generation_utils.py
+│       ├── multiretrieval_pipeline.py
+│       ├── query_services.py
+│       ├── schemas.py
 │       └── text_chunker.py
 │
 ├── data
-│       └── mesh
+│   └── mesh
 ├── models
 │   └── Modelfile
 ├── pyproject.toml

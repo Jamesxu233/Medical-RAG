@@ -126,7 +126,7 @@ Evidence-based Medical Answer
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/Jamesxu/MedicalRAG.git
+git clone https://github.com/Jamesxu/Medical-RAG.git
 
 cd MedicalRAG
 ```

@@ -80,9 +80,7 @@ MedicalRAG
 │       └── text_chunker.py
 │
 ├── data
-├── vector_db
-│       └── chroma_pubmed_db_rebuilt
-│       └── pubmed_bm25_index
+│       └── mesh
 ├── pyproject.toml
 └── README.md
 ```
